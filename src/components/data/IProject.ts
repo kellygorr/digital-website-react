@@ -28,5 +28,7 @@ export interface IPhotos {
 	info?: {
 		camera?: string
 		lens?: string
+		app?: string
+		tutorial?: string
 	}
 }

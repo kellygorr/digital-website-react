@@ -1,10 +1,5 @@
 import { IProject } from './IProject'
-import { flowers } from './projects/flowers'
-import { washington } from './projects/washington'
-import { turkey } from './projects/turkey'
-import { seattle } from './projects/seattle'
-import { france } from './projects/france'
-import { pets } from './projects/pets'
-import { spain } from './projects/spain'
+import { blue } from './projects/blue'
+import { tutorial } from './projects/tutorial'
 
-export const projects: IProject[] = [turkey, spain, flowers, pets, france, seattle, washington]
+export const projects: IProject[] = [blue, tutorial]

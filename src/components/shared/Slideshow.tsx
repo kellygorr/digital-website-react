@@ -114,7 +114,7 @@ export const Slideshow: React.FC<IPageProps> = (props: IPageProps) => {
 
 const findActiveSlide = (setActive: (index: number) => void): void => {
 	if (slideshowRef && slideshowRef.current) {
-		var slideArray = [].slice.call(slideshowRef.current.querySelectorAll('div'))
+		const slideArray = [].slice.call(slideshowRef.current.querySelectorAll('div'))
 		const activeSlideIndex = slideArray.findIndex((el) => isElementCentered(el))
 		if (activeSlideIndex >= 0) {
 			setActive(activeSlideIndex)
@@ -123,7 +123,7 @@ const findActiveSlide = (setActive: (index: number) => void): void => {
 }
 
 const isElementCentered = (el: HTMLDivElement) => {
-	var rect = el.getBoundingClientRect()
+	const rect = el.getBoundingClientRect()
 	const center = document.documentElement.clientWidth / 2
 	return rect.left < center && center < rect.right
 }

@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
 		<Container>
 			{/* <BackgroundImage src={bg} /> */}
 			<Logo to="/">
-				<HeaderTitle>Photography</HeaderTitle>
+				<HeaderTitle>Digital</HeaderTitle>
 			</Logo>
 		</Container>
 	)
