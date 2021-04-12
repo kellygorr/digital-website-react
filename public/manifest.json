@@ -1,0 +1,8 @@
+{
+	"short_name": "Photo Gallery",
+	"name": "Kelly Gorr Photo Gallery",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+
+# system files
+.DS_Store
+
+# Logs
+*.log
+
+# build artifacts
+www/
+build/
+
+# Logs
+*.log
+
+# vs code workspace
+.code-workspace
+
+# misc files
+package-deps.json
+package-lock.json
+/.env
+/yarn.lock
+/.cache
+
+# assets
+assets/
+src/react-app-env.d.ts
